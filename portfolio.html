@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -18,207 +20,208 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
   <body>
-    <!-- Шапка сайта -->
-    <header class="header">
-      <div class="container c-header nav-flex">
-        <nav class="nav-flex">
-          <a class="logo" href="./index.html">
-            <span class="logo-accent">Web</span>Studio
-          </a>
-
-          <ul class="list nav-flex">
+    <!-- Header -->
+    <header class="header portfolio">
+      <div class="container c-header">
+        <!-- Nav -->
+        <nav class="nav">
+          <a href="./index.html" class="logo logo-header"
+            ><span class="logo-accent">Web</span>Studio</a
+          >
+          <ul class="list-nav">
             <li class="item-nav">
-              <a class="link nav" href="./index.html">Студія</a>
+              <a href="./index.html" class="link link-nav">Студія</a>
             </li>
             <li class="item-nav">
-              <a class="link nav current" href="./portfolio.html">Портфоліо</a>
+              <a href="./portfolio.html" class="link link-nav current"
+                >Портфоліо</a
+              >
             </li>
-            <li class="item-nav"><a class="link nav" href="">Контакти</a></li>
+            <li class="item-nav">
+              <a href="" class="link link-nav">Контакти</a>
+            </li>
           </ul>
         </nav>
-
-        <ul class="list contact nav-flex">
-          <li class="item-contact">
-            <a class="link contact" href="mailto:info@devstudio.com"
+        <!-- Contacts -->
+        <ul class="list-contacts">
+          <li class="item-contacts">
+            <a href="mailto:info@devstudio.com" class="link link-contacts"
               >info@devstudio.com</a
             >
           </li>
-          <li class="item-contact">
-            <a class="link contact" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+          <li class="item-contacts">
+            <a href="tel:+380961111111" class="link link-contacts">
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
       </div>
     </header>
-
-    <main>
-      <section class="section portfolio">
-        <div class="container c-btn">
-          <h1 class="d-none">Портфоліо</h1>
+    <!-- Main -->
+    <main class="main">
+      <section class="section">
+        <div class="container">
+          <h1 class="visually-hidden">Портфоліо</h1>
           <!-- Кнопки -->
-          <ul class="list list-btn">
-            <li class="item-btn">
-              <button class="btn" type="button">Все</button>
+          <ul class="list-button">
+            <li class="item-button">
+              <button class="button" type="button">Все</button>
             </li>
-            <li class="item-btn">
-              <button class="btn" type="button">Веб-сайти</button>
+            <li class="item-button">
+              <button class="button" type="button">Веб-сайти</button>
             </li>
-            <li class="item-btn">
-              <button class="btn" type="button">Додатки</button>
+            <li class="item-button">
+              <button class="button" type="button">Додатки</button>
             </li>
-            <li class="item-btn">
-              <button class="btn" type="button">Дизайн</button>
+            <li class="item-button">
+              <button class="button" type="button">Дизайн</button>
             </li>
-            <li class="item-btn">
-              <button class="btn" type="button">Маркетинг</button>
+            <li class="item-button">
+              <button class="button" type="button">Маркетинг</button>
             </li>
           </ul>
-        </div>
-
-        <!-- приклади -->
-        <div class="container">
-          <ul class="list photo">
-            <li class="item example">
+          <!-- Examples -->
+          <ul class="list-examples">
+            <li class="item-examples">
               <img
                 src="./images/teсhnokryak.jpg"
                 alt="ноутбук з відкритим сайтом"
                 width="370"
-                class="example-photo"
+                class="photo-examples"
               />
-              <div class="example-text">
-                <h2 class="title-name">Технокряк</h2>
-                <p class="filter">Веб-сайт</p>
+              <div class="text-examples">
+                <h2 class="title-examples">Технокряк</h2>
+                <p class="article-examples">Веб-сайт</p>
               </div>
             </li>
-            <li class="item example">
+            <li class="item-examples">
               <img
                 src="./images/poster.jpg"
                 alt="Постер з двома баскетболістами"
                 width="370"
-                class="example-photo"
+                class="photo-examples"
               />
-              <div class="example-text">
-                <h2 class="title-name">Постер New Orlean vs Golden Star</h2>
-                <p class="filter">Дизайн</p>
+              <div class="text-examples">
+                <h2 class="title-examples">Постер New Orlean vs Golden Star</h2>
+                <p class="article-examples">Дизайн</p>
               </div>
             </li>
-            <li class="item example">
+            <li class="item-examples">
               <img
                 src="./images/seafood.jpg"
                 alt="Логотип ресторану"
                 width="370"
-                class="example-photo"
+                class="photo-examples"
               />
-              <div class="example-text">
-                <h2 class="title-name">Ресторан Seafood</h2>
-                <p class="filter">Додаток</p>
+              <div class="text-examples">
+                <h2 class="title-examples">Ресторан Seafood</h2>
+                <p class="article-examples">Додаток</p>
               </div>
             </li>
-            <li class="item example">
+            <li class="item-examples">
               <img
                 src="./images/prime.jpg"
                 alt="Навушники"
                 width="370"
-                class="example-photo"
+                class="photo-examples"
               />
-              <div class="example-text">
-                <h2 class="title-name">Проєкт Prime</h2>
-                <p class="filter">Маркетинг</p>
+              <div class="text-examples">
+                <h2 class="title-examples">Проєкт Prime</h2>
+                <p class="article-examples">Маркетинг</p>
               </div>
             </li>
-            <li class="item example">
+            <li class="item-examples">
               <img
                 src="./images/boxes.jpg"
                 alt="Два бокси"
                 width="370"
-                class="example-photo"
+                class="photo-examples"
               />
-              <div class="example-text">
-                <h2 class="title-name">Проєкт Boxes</h2>
-                <p class="filter">Додаток</p>
+              <div class="text-examples">
+                <h2 class="title-examples">Проєкт Boxes</h2>
+                <p class="article-examples">Додаток</p>
               </div>
             </li>
-            <li class="item example">
+            <li class="item-examples">
               <img
                 src="./images/inspiration.jpg"
                 alt="сайт на екрані"
                 width="370"
-                class="example-photo"
+                class="photo-examples"
               />
-              <div class="example-text">
-                <h2 class="title-name">Inspiration has no Borders</h2>
-                <p class="filter">Веб-сайт</p>
+              <div class="text-examples">
+                <h2 class="title-examples">Inspiration has no Borders</h2>
+                <p class="article-examples">Веб-сайт</p>
               </div>
             </li>
-            <li class="item example">
+            <li class="item-examples">
               <img
                 src="./images/limited_edition.jpg"
                 alt="відкритий журнал"
                 width="370"
-                class="example-photo"
+                class="photo-examples"
               />
-              <div class="example-text">
-                <h2 class="title-name">Видання Limited Edition</h2>
-                <p class="filter">Дизайн</p>
+              <div class="text-examples">
+                <h2 class="title-examples">Видання Limited Edition</h2>
+                <p class="article-examples">Дизайн</p>
               </div>
             </li>
-            <li class="item example">
+            <li class="item-examples">
               <img
-                src="./images/LAB.jpg"
+                src="./images/lab.jpg"
                 alt="бірка"
                 width="370"
-                class="example-photo"
+                class="photo-examples"
               />
-              <div class="example-text">
-                <h2 class="title-name">Проект LAB</h2>
-                <p class="filter">Маркетинг</p>
+              <div class="text-examples">
+                <h2 class="title-examples">Проект LAB</h2>
+                <p class="article-examples">Маркетинг</p>
               </div>
             </li>
-            <li class="item example">
+            <li class="item-examples">
               <img
                 src="./images/growing_business.jpg"
                 alt="відкритий додаток на ноутбуці"
                 width="370"
-                class="example-photo"
+                class="photo-examples"
               />
-              <div class="example-text">
-                <h2 class="title-name">Growing Business</h2>
-                <p class="filter">Додаток</p>
+              <div class="text-examples">
+                <h2 class="title-examples">Growing Business</h2>
+                <p class="article-examples">Додаток</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-
-    <!-- Футер -->
+    <!-- Footer -->
     <footer class="footer">
-      <div class="container list-footer">
-        <a class="logo-footer" href="./index.html"
-          ><span class="logo-accent">Web</span>Studio</a
-        >
-        <address>
-          <ul class="list list-address">
+      <div class="container">
+        <a href="./index.html" class="logo logo-footer">
+          <span class="logo-accent">Web</span>Studio
+        </a>
+        <address class="address">
+          <ul class="list-address">
             <li class="item-address">
               <a
-                class="link address"
+                class="c-address"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                м. Київ, пр-т Лесі Українки, 26
-              </a>
-            </li>
-            <li class="item-mail">
-              <a class="link mail" href="mailto:info@example.com"
-                >info@example.com</a
+                м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li class="item-tel">
-              <a class="link tel" href="tel:+380991111111">+38 099 111 11 11</a>
+            <li class="item-address">
+              <a class="link-address" href="mailto:info@example.com"
+                >info@example.com
+              </a>
+            </li>
+            <li class="item-address">
+              <a class="link-address" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
             </li>
           </ul>
         </address>
