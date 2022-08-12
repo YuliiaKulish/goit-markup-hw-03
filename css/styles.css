@@ -278,6 +278,8 @@ body {
 
 .footer {
   background-color: var(--accent-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer > .container,
@@ -292,7 +294,6 @@ body {
 
 .logo-footer {
   color: var(--primary-bg-color);
-  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -316,10 +317,6 @@ body {
   /* or 171% */
 
   letter-spacing: 0.03em;
-}
-
-.item-address:last-child {
-  margin-bottom: 60px;
 }
 
 /* Portfolio html */
